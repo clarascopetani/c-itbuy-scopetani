@@ -1,3 +1,5 @@
+# Repo para ejercicio de curso React.js de Corderhouse
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
