@@ -1,11 +1,13 @@
 import React from "react";
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
+import CartWidget from "../CartWidget/CartWidget";
+
 
 export const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">
-          <img src={logo} className="d-inline-block align-center" width="122" alt="ITBuy Logo" />  Store</a>
+          <a class="navbar-brand" href="#home">
+          <img src={logo} class="d-inline-block align-center" width="122" alt="ITBuy Logo" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,6 +27,7 @@ export const NavBar = () => {
             </li>
         </ul>
         </div>
+        <CartWidget />
     </nav>
     );
 };
