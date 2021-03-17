@@ -1,10 +1,11 @@
 import React from "react";
-import './listcontainer.css';
+import { ItemCount } from '../ItemCount/ItemCount';
 
-export const ListContainer = () => {
+export default function ListContainer({gretting}) {
     return (
-        <div className="itemsContainer">
-        Acá va el listado
-    </div>
+      <div className="container">
+        <h1>{gretting}</h1>
+        <ItemCount stock="5" initial="1" />
+      </div>
     );
-}
+  }

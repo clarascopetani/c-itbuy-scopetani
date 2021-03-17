@@ -1,0 +1,26 @@
+.containerAddCart{
+    background-color:whitesmoke;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 16rem;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.containerItemCount {
+    background-color: #ffffff;
+    border:1px solid lightgrey;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerItemCount button:disabled{
+    color:lightgrey;
+    border: 1px solid lightgrey;
+}
