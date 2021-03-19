@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
      <NavBar/>
-     <ListContainer />
+     <ListContainer list="cargo el listado" />
      <p>Acá va el contenido</p>
     </div>
   );
