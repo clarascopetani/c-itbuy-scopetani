@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.containerItemCount button:disabled{
+.containerItemCount button:disabled {
     color:lightgrey;
     border: 1px solid lightgrey;
 }
