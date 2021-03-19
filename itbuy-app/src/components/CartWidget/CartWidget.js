@@ -6,5 +6,5 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CartWidget() {
-    return <button type="button" class="btn btn-default dropdown-toggle dropdownCart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><FontAwesomeIcon className="iconCart" icon={faShoppingCart} /></button>;
+    return <button type="button" className="btn btn-default dropdown-toggle dropdownCart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><FontAwesomeIcon className="iconCart" icon={faShoppingCart} /></button>;
 }

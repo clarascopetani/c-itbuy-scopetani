@@ -1,0 +1,27 @@
+.item-card{
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 30%;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.item-image{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.card-title{
+    font-size: 1.4rem;
+    color: rgb(79, 79, 79);
+}
+
+.item-stock{
+    font-size: 0.9rem;
+    color: rgb(79, 79, 79);
+}
+
+.item-price{
+    font-size: 2rem;
+    color: orange;
+}
